@@ -6,8 +6,8 @@ For this challenge of Ethereum Developer Program [Link challenge](https://github
 This project looks like:
 Web version:
 ![Web version 1](images/web1.png)
-![Web version 2](images/wweb2.png)
-![web version 3](images/wweb3.png)
+![Web version 2](images/web2.png)
+![web version 3](images/web3.png)
 
 Mobile version:
 ![mobile version 1](images/mobile1.png)
