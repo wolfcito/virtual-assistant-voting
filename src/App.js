@@ -1,20 +1,16 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { Route } from 'react-router-dom'
+import MainLayout from './layouts/main'
+
 import Home from './views/home'
-import Web3 from 'web3'
+import About from './views/about'
 
 function App() {
-  useEffect(() => {
-    if (window.ethereum) {
-      const web3 = new Web3(window.ethereum)
-      web3.eth.requestAccounts().then(console.log)
-    }
-  }, [])
-
   return (
-    <>
+    <MainLayout>
       <Route path="/" exact component={Home} />
-    </>
+      <Route path="/about" exact component={About} />
+    </MainLayout>
   )
 }
 
