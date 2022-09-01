@@ -24,4 +24,6 @@ Mobile version:
 
 ### `yarn eject`
 
-### `yarn build` fails to minify
+### `yarn build`
+
+By wolfcito
